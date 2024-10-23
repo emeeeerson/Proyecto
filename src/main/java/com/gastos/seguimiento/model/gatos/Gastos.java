@@ -6,8 +6,8 @@
 
     import java.time.LocalDate;
 
-    @Document(collection = "gastos")
-    @Data
+        @Document(collection = "gastos")
+        @Data
     public class Gastos {
         @Id
         private String id;
