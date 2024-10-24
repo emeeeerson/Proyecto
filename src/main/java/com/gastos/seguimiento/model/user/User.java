@@ -10,5 +10,7 @@ public class User {
     private String id; // En MongoDB el id es tipo String
     private String name;
     private String email;
-    private String password; // Encripta las contraseñas en el futuro
+    private String telefono;
+    private String direccion;
+    private String password;
 }
